@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { airplaneName: 'Airbus A340' });
+  res.render('index', { airplaneName: 'Airbus A340 testing staging!' });
 });
 
 module.exports = router;
